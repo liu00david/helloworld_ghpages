@@ -1,5 +1,6 @@
 {
   "name": "helloworld_ghpages",
+  "homepage": "https://liu00david.github.io/helloworld_ghpages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
