@@ -43,13 +43,17 @@ jobs:
           folder: build
 
 ```
-7. Git add and commit your changes by running:
+7. In 'package.json', add the following line under "name":
+```
+  "homepage": "https://YOURGITHUBNAME.github.io/YOURPROJECTNAME",
+```
+8. Git add and commit your changes by running:
 ```
 git add .
 git commit -m "adding gh-pages yaml file"
 git push
 ```
-8. Go to the Github UI and see your latest changes. [How to fix Git push issues]
-9. Ggo to **Settings**, then on the left sidebar go to **Pages**. In the dropdown menu for **Source**, select **Deploy from a branch**, then **gh-pages**. Click **Save**.
-10. Near the top-middle of the Github UI, click on **Actions**. See the page actions jobs that are running (should show yellow dots).
-11. Once the jobs complete (are green), visit your website on Github pages. You are done.
+9. Go to the Github UI and see your latest changes. [How to fix Git push issues]
+10. Ggo to **Settings**, then on the left sidebar go to **Pages**. In the dropdown menu for **Source**, select **Deploy from a branch**, then **gh-pages**. Click **Save**.
+11. Near the top-middle of the Github UI, click on **Actions**. See the page actions jobs that are running (should show yellow dots).
+12. Once the jobs complete (are green), visit your website on Github pages. You are done.
