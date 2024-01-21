@@ -9,7 +9,7 @@ No need to clone this repo. Instructions below is how to get started from scratc
 3. Clone the git repo locally, and navigate to your project's directory. 
 ```
 git clone [SSH_LINK_FROM_GITHUB]
-cd my-website
+cd helloworld_ghpages
 ```
 4. Run the following to initialize your React App:
 ```
@@ -57,5 +57,5 @@ git push
 9. Go to the Github UI and see your latest changes to your files.
 10. Go to **Settings**, then on the left sidebar go to **Pages**. In the dropdown menu for **Source**, select **Deploy from a branch**, then **gh-pages**. Click **Save**.
 11. Near the top-middle of the page, click on **Actions**. See the page actions jobs that are running (should show yellow dots).
-12. Once the jobs complete (are green), visit your website on Github pages, which should be at `https://YOURGITHUBUSERNAME.github.io/YOURPROJECTNAME`.
+12. Once the jobs complete (are green), visit your website on Github pages, which should be at `https://YOURGITHUBUSERNAME.github.io/YOURPROJECTNAME`. All done!
     
